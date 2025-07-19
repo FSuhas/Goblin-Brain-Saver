@@ -1,7 +1,7 @@
 # Goblin Brain Saver - Turtle WoW 1.12 Addon
 
 ## Description:
-Goblin Brain Saver is a World of Warcraft 1.12 addon that allows you to save, restore, and organize your talent specializations. It integrates seamlessly with the game UI using a custom Spellbook-inspired window.
+Goblin Brain Saver is a Turtle wow addon that allows you to save, restore, and organize your talent specializations. It integrates seamlessly with the game UI using a custom Spellbook-inspired window.
 
 ![alt text](image.png)
 
@@ -35,7 +35,7 @@ For suggestions or feedback:
 # Goblin Brain Saver - Turtle WoW 1.12 Addon
 
 ## Description :
-Goblin Brain Saver est un addon World of Warcraft 1.12 permettant de sauvegarder, restaurer et organiser vos spécialisations de talents. Il s'intègre à l'interface du jeu via une fenêtre inspirée du Spellbook.
+Goblin Brain Saver est un addon Turtle wow permettant de sauvegarder, restaurer et organiser vos spécialisations de talents. Il s'intègre à l'interface du jeu via une fenêtre inspirée du Spellbook.
 
 ![alt text](image.png)
 
