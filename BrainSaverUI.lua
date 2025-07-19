@@ -1,4 +1,4 @@
-local addon_name = "BrainSaver"
+local addon_name = "Goblin Brain Saver"
 
 -- Récupère la table globale DB et Utils (assure-toi que BrainSaverDB.lua est chargé avant)
 local DB = BrainSaverDB or {}
