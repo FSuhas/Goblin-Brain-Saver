@@ -17,7 +17,7 @@ Goblin Brain Saver is a World of Warcraft 1.12 addon that allows you to save, re
    `World of Warcraft\Interface\AddOns\GoblinBrainSaver\`
 
 ## Author:
-[|cffadd8e6Gon|r|cffffffffdo|r|cffff7f7fLeon|r](https://github.com/MarcelineVQ)  
+Gondoleon 
 Inspired by [BrainSaver](https://github.com/MarcelineVQ/BrainSaver) by [MarcelineVQ](https://github.com/MarcelineVQ)
 
 ## Contact:
@@ -51,7 +51,7 @@ Goblin Brain Saver est un addon World of Warcraft 1.12 permettant de sauvegarder
    `World of Warcraft\Interface\AddOns\GoblinBrainSaver\`
 
 ## Auteur :
-[|cffadd8e6Gon|r|cffffffffdo|r|cffff7f7fLeon|r](https://github.com/MarcelineVQ)  
+Gondoleon
 Inspiré par [BrainSaver](https://github.com/MarcelineVQ/BrainSaver) de [MarcelineVQ](https://github.com/MarcelineVQ)
 
 ## Contact :
