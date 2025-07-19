@@ -166,7 +166,7 @@ function mainFrame:GOSSIP_SHOW()
     end
   end
 
-self.talentSummaryText:SetText(format("Current spec: %s", specName))
+  self.talentSummaryText:SetText(format("Current spec: %s", specName))
 
   self.gossip_slots = {
     save = {},
@@ -179,10 +179,16 @@ self.talentSummaryText:SetText(format("Current spec: %s", specName))
 
      if titleButton and titleButton:IsVisible() then
       local text = titleButton:GetText()
-      local save_spec = tonumber(string.match(text, "Save (%d+)"))
-      local load_spec = tonumber(string.match(text, "Activate (%d+)"))
-      local buy_spec, price = string.match(text, "Buy (%d+).*Specialization tab for (%d+) gold")
+
+      local _, _, save_str = string.find(text, "Save (%d+)")
+      local _, _, load_str = string.find(text, "Activate (%d+)")
+      local _, _, buy_str, price_str = string.find(text, "Buy (%d+).*Specialization tab for (%d+) gold")
       local isReset = string.find(text, "Reset my talents")
+
+      local save_spec = tonumber(save_str)
+      local load_spec = tonumber(load_str)
+      local buy_spec = tonumber(buy_str)
+      local price = tonumber(price_str)
 
       -- Save
       if save_spec and talentButtons[save_spec] then
@@ -198,10 +204,9 @@ self.talentSummaryText:SetText(format("Current spec: %s", specName))
 
       -- Buy
       elseif buy_spec and price then
-        local specIndex = tonumber(buy_spec)
-        self.gossip_slots.buy[specIndex] = { button = titleButton, price = tonumber(price) }
+        self.gossip_slots.buy[buy_spec] = { button = titleButton, price = price }
 
-        for i = specIndex, 4 do
+        for i = buy_spec, 4 do
           if talentButtons[i] then
             talentButtons[i].isActive = false
             talentButtons[i]:SetIcon("Interface\\Icons\\INV_Misc_Coin_01", true)
