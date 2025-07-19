@@ -1,0 +1,15 @@
+## Interface: 11200
+## Title: Goblin Brain Saver
+## Notes: Save and name brainwasher specs
+## Author: |cffadd8e6Gon|r|cffffffffdo|r|cffff7f7fLeon|r
+## Version: 0.0.1
+# OptionalDeps: UnitXP_SP3_Addon
+## SavedVariablesPerCharacter: BrainSaverDB
+
+BrainSaverDB.lua
+BrainSaverUI.lua
+ContextMenu.lua
+TalentButtons.lua
+IconSelector.lua
+Popups.lua
+BrainSaver.lua
