@@ -282,14 +282,12 @@ StaticPopupDialogs["SAVE_TALENT_LAYOUT"] = {
       end
     end,
     OnAccept = function()
-      print("OnAccept called in SAVE_TALENT_LAYOUT")
       local button = talentButtons[mainFrame.currentButton]
       local newName = _G[this:GetParent():GetName().."EditBox"]:GetText()
       local t1, t2, t3 = TalentCounts()
       local talents = FetchTalents()
 
       local newIcon = BrainSaverDB.spec[button.index] and BrainSaverDB.spec[button.index].icon or "Interface\\Icons\\INV_Misc_QuestionMark"
-      print("Icon saved:", newIcon)
 
       BrainSaverDB.spec[button.index] = BrainSaverDB.spec[button.index] or {}
 
